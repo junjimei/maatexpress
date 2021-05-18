@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿su billete?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 415,
+			"y": -243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "Ticket",
+		"body": "- Sí. Aquí tiene.\n[[ answer: |Node3]]",
+		"position": {
+			"x": 412,
+			"y": -23
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[ A. PERMITIR VIAJAR |Node5]] [[ B. EXPULSAR DEL TREN |Node4]]",
+		"position": {
+			"x": 405,
+			"y": 198
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Tiene que salir del tren.\n[[ answer: |Node6]]",
+		"position": {
+			"x": 637,
+			"y": 279
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "End",
+		"body": "- Muchas gracias. \n[[ answer: |EndNode]]",
+		"position": {
+			"x": 640,
+			"y": 74
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "Autorization",
+		"body": "- ¿Cómo? ¿Pero por qué?\n[[ answer: |Node6_4]]",
+		"position": {
+			"x": 855,
+			"y": 277
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End Dropout",
+		"body": "- No lo entiendo.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 965,
+			"y": 56
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- De acuerdo... gracias.[[ answer: |EndNode]]",
+		"position": {
+			"x": 1199,
+			"y": 61
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Ya me ha pedido el billete.\n[[ answer: |Node20]]",
+		"position": {
+			"x": 792,
+			"y": -706
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. Porque yo lo digo|Node8]] [[B. Perdone, ha sido un error|Node9]]",
+		"position": {
+			"x": 1096,
+			"y": 560
+		},
+		"colorID": 0
+	}
+]

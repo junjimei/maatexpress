@@ -1,0 +1,152 @@
+[
+	{
+		"title": "StartP5",
+		"tags": "",
+		"body": "- Su billete, por favor.[[ answer: |Node1]]",
+		"position": {
+			"x": 33,
+			"y": 47
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "Ticket",
+		"body": "- Aquí está.[[|Node3]]",
+		"position": {
+			"x": 259,
+			"y": 58
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- ¿Cómo dice? Es un billete normal, me lo vendió una persona en el andén porque no iba a viajar.[[|Node6]]",
+		"position": {
+			"x": 331,
+			"y": 309
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[Este billete es falso.|Node4]] [[PERMITIR VIAJAR|Node5]]",
+		"position": {
+			"x": 472,
+			"y": 58
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "- Muchas gracias.[[|EndNode]]",
+		"position": {
+			"x": 553,
+			"y": 309
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "[[Los billetes son intransferibles|Node7]] [[De acuerdo, perdone las molestias.|EndNode]]",
+		"position": {
+			"x": 330,
+			"y": 530
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "",
+		"body": "- ¿Y dónde está esa información disponible para el cliente?[[|Node9]]",
+		"position": {
+			"x": 206,
+			"y": 758
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "",
+		"body": "Es algo lógico.[[|Node10]]",
+		"position": {
+			"x": 200,
+			"y": 980
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "",
+		"body": "- Menos mal que ha entrado en razón.[[|EndNode]]",
+		"position": {
+			"x": 789,
+			"y": 1124
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "- No es nada lógico. Cada empresa ferroviaria funciona de una determinada manera, no pueden pretender que el cliente lo sepa todo si no se le informa...[[|Node11]]",
+		"position": {
+			"x": 199,
+			"y": 1199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node14]] [[EXPULSAR DEL TREN|Node15]]",
+		"position": {
+			"x": 558,
+			"y": 1198
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1209,
+			"y": 317
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "Dropout",
+		"body": "- No tiene ni idea del error que ha cometido.[[|EndNode]]",
+		"position": {
+			"x": 791,
+			"y": 1336
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "... Soy abogado y sé muy bien que el primer derecho básico de consumidores y usuarios es el derecho a una información correcta, usted debería saberlo también.[[|Node12]]",
+		"position": {
+			"x": 200,
+			"y": 1414
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "... Si me echa del tren podría denunciarle y le caería una bien gorda a su empresa y a usted.[[|Node13]]",
+		"position": {
+			"x": 438,
+			"y": 1418
+		},
+		"colorID": 0
+	}
+]

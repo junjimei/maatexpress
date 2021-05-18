@@ -1,0 +1,152 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿me presta su billete?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 412,
+			"y": -246
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "- Sí, claro… Vaya, no lo encuentro por ninguna parte.\n[[ answer: |Node2_1]]",
+		"position": {
+			"x": 410,
+			"y": -24
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[ A. EXPULSAR DEL TREN |Node5]]\n[[B. ¿Hacia dónde se dirige? |Node4]]",
+		"position": {
+			"x": 402,
+			"y": 195
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Voy a Abidos, a visitar a mi hija. \n[[ answer: |Node6]]",
+		"position": {
+			"x": 639,
+			"y": 283
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "- Por favor, no me obligue a bajar. No conozco esta zona y no llevo mucho dinero encima… Solo quiero visitar a mi hija.\n[[ answer: |Node7]]",
+		"position": {
+			"x": 639,
+			"y": 75
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "[[A. Puede viajar|Node8]] [[B. ¿Puedo ver su identificación?|Node15]]",
+		"position": {
+			"x": 572,
+			"y": 517
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "",
+		"body": "[[A. Lo siento, no puede viajar sin billete|Node9]]\n[[B. Está bien, la próxima vez vigile mejor sus pertenencias|Node8]]",
+		"position": {
+			"x": 857,
+			"y": 311
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End",
+		"body": "- Muchas gracias, de verdad.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 963,
+			"y": 53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End Dropout",
+		"body": "- Esto es injusto. Alguien me ha robado el billete, estoy seguro.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1196,
+			"y": 63
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 1123,
+			"y": -391
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Gracias de nuevo, le debo una.[[ answer: |Node20]]",
+		"position": {
+			"x": 793,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_1",
+		"tags": "",
+		"body": "...Lo compré en la taquilla, se lo juro, lo llevaba encima. Alguien ha debido de robármelo.\n[[ answer: |Node3]]",
+		"position": {
+			"x": 168,
+			"y": 54
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "Ticket",
+		"body": "- Sí, tome.\n[[ answer: |Node16]]",
+		"position": {
+			"x": 840,
+			"y": 533
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "[[A. EXPULSAR DEL TREN|Node9]]\n[[B. PERMITIR VIAJAR|Node8]]",
+		"position": {
+			"x": 1075,
+			"y": 410
+		},
+		"colorID": 0
+	}
+]

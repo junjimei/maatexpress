@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "- ¿Me presta su billete?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 408,
+			"y": -251
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "Ticket",
+		"body": "- Sí, aquí está.\n[[ answer: |Node_2]]",
+		"position": {
+			"x": 430,
+			"y": -17
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "End",
+		"body": "- No entiendo nada, he pagado mi billete como todos los demás.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 699,
+			"y": 62
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End",
+		"body": "- Gracias...\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 960,
+			"y": 51
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End Dropout",
+		"body": "- No entiendo nada, he pagado mi billete como todos los demás.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1183,
+			"y": 54
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 1123,
+			"y": -391
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Gracias, muy amable.[[ answer: |Node20]]",
+		"position": {
+			"x": 793,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_1",
+		"tags": "",
+		"body": "- Perdone pero creo que se equivoca, he leído las normas y sí que se puede.\n[[ answer: |Node16]]",
+		"position": {
+			"x": 738,
+			"y": 322
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "[[A. EXPULSAR DEL TREN|Node9]]\n[[B. PERMITIR VIAJAR|Node8]]",
+		"position": {
+			"x": 1080,
+			"y": 319
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días.\n[[ answer: |Node]]",
+		"position": {
+			"x": 641,
+			"y": -307
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node_2",
+		"tags": "",
+		"body": "[[A. PERMITIR VIAJAR|Node8]]\n[[B. No se puede viajar con animales |Node2_1]]",
+		"position": {
+			"x": 438,
+			"y": 287
+		},
+		"colorID": 0
+	}
+]

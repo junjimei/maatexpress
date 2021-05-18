@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- ¿Su billete, por favor?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 407,
+			"y": -242
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "Ticket",
+		"body": "- Buenos días, aquí tiene.\n[[ answer: |Node3]]",
+		"position": {
+			"x": 403,
+			"y": -23
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[ A. EXPULSAR DEL TREN |Node4]] [[ B. PERMITIR VIAJAR |Node5]]",
+		"position": {
+			"x": 406,
+			"y": 199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Tiene que salir del tren.\n[[ answer: |Node6]]",
+		"position": {
+			"x": 640,
+			"y": 279
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "End",
+		"body": "- ¡Muchas gracias! \n[[ answer: |EndNode]]",
+		"position": {
+			"x": 640,
+			"y": 74
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- ¿Mi billete no es válido?\n[[ answer: |Node6_4]]",
+		"position": {
+			"x": 829,
+			"y": 537
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End Dropout",
+		"body": "- Qué extraño, cogeré el siguiente.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 964,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- De acuerdo... gracias.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1181,
+			"y": 53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Ya ha revisado mi billete.\n[[ answer: |Node20]]",
+		"position": {
+			"x": 792,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. No. Tiene que bajar|Node8]] [[B. Sí, perdone, ha sido un error|Node9]]",
+		"position": {
+			"x": 1096,
+			"y": 561
+		},
+		"colorID": 0
+	}
+]

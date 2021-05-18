@@ -1,0 +1,112 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿su billete? [[ answer: |Node1]]",
+		"position": {
+			"x": 147,
+			"y": 25
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "Ticket",
+		"body": "- Sí. Aquí tiene. [[ answer: |Node2]]",
+		"position": {
+			"x": 146,
+			"y": 241
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "[[ PERMITIR VIAJAR |Node3]]\n[[ EXPULSAR DEL TREN |Node4]]",
+		"position": {
+			"x": 144,
+			"y": 455
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "End",
+		"body": "- Muchas gracias.\n[[ answer: |End]]",
+		"position": {
+			"x": -31,
+			"y": 692
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Tiene que salir del tren.[[|Node5]]",
+		"position": {
+			"x": 319,
+			"y": 699
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "¿Cómo? ¿Pero por qué?[[|Node6]]",
+		"position": {
+			"x": 424,
+			"y": 461
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "[[Porque yo lo digo.|Node7]] [[Perdone, ha sido un error. Su billete es válido.|Node8]]",
+		"position": {
+			"x": 423,
+			"y": 236
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "Dropout End",
+		"body": "No lo entiendo.\n[[ answer: |End]]",
+		"position": {
+			"x": 556,
+			"y": 4
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End",
+		"body": "De acuerdo... Gracias.\n[[ answer: |End]]",
+		"position": {
+			"x": 682,
+			"y": 235
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Ya le he enseñado mi billete.\n[[ answer: |End]]",
+		"position": {
+			"x": -249,
+			"y": -134
+		},
+		"colorID": 0
+	},
+	{
+		"title": "End",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 707,
+			"y": -467
+		},
+		"colorID": 0
+	}
+]

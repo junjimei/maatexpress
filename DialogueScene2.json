@@ -1,0 +1,152 @@
+[
+	{
+		"title": "StartP1",
+		"tags": "",
+		"body": "- Su billete, por favor.[[ answer: |Node1]]",
+		"position": {
+			"x": 24,
+			"y": 38
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "Ticket",
+		"body": "- Aquí está.[[|Node3]]",
+		"position": {
+			"x": 249,
+			"y": 48
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[Este billete es falso.|Node4]] [[PERMITIR VIAJAR|Node5]]",
+		"position": {
+			"x": 462,
+			"y": 48
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- ¿Cómo dice? Es un billete normal, me lo vendió una persona en el andén porque no iba a viajar.[[|Node6]]",
+		"position": {
+			"x": 321,
+			"y": 299
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "- Muchas gracias.[[|EndNode]]",
+		"position": {
+			"x": 543,
+			"y": 299
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "[[Los billetes son intransferibles|Node7]] [[De acuerdo, perdone las molestias.|EndNode]]",
+		"position": {
+			"x": 320,
+			"y": 520
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "",
+		"body": "- ¿Y dónde está esa información disponible para el cliente?[[|Node9]]",
+		"position": {
+			"x": 196,
+			"y": 748
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "",
+		"body": "Es algo lógico.[[|Node10]]",
+		"position": {
+			"x": 190,
+			"y": 970
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "- No es nada lógico. Cada empresa ferroviaria funciona de una determinada manera, no pueden pretender que el cliente lo sepa todo si no se le informa...[[|Node11]]",
+		"position": {
+			"x": 189,
+			"y": 1189
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1199,
+			"y": 307
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "... Soy abogado y sé muy bien que el primer derecho básico de consumidores y usuarios es el derecho a una información correcta, usted debería saberlo también.[[|Node12]]",
+		"position": {
+			"x": 190,
+			"y": 1404
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "... Si me echa del tren podría denunciarle y le caería una bien gorda a su empresa y a usted.[[|Node13]]",
+		"position": {
+			"x": 428,
+			"y": 1408
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node14]] [[EXPULSAR DEL TREN|Node15]]",
+		"position": {
+			"x": 548,
+			"y": 1188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "",
+		"body": "- Menos mal que ha entrado en razón.[[|EndNode]]",
+		"position": {
+			"x": 779,
+			"y": 1114
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "Dropout",
+		"body": "- No tiene ni idea del error que ha cometido.[[|EndNode]]",
+		"position": {
+			"x": 781,
+			"y": 1326
+		},
+		"colorID": 0
+	}
+]

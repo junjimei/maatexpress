@@ -1,0 +1,142 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿su billete?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 416,
+			"y": -242
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "- Sí, verá… Tenía mi billete aquí mismo, pero ahora no está. [[ answer: |Node2_1]]",
+		"position": {
+			"x": 412,
+			"y": -23
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "- No puedo dejarle viajar sin billete. \n[[ answer: |Node4]]",
+		"position": {
+			"x": 399,
+			"y": 282
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Lo sé, mire, cojo esta línea todas las semanas, sé que hay revisor. \n[[ answer: |Node6]]",
+		"position": {
+			"x": 632,
+			"y": 294
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "...Si estoy aquí es porque adquirí mi billete, no iba a subir al tren si no lo tuviera, es de lógica. Simplemente lo he extraviado.[[ answer: |Node6_4]]",
+		"position": {
+			"x": 855,
+			"y": 276
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End Dropout",
+		"body": "- El anterior revisor no era tan maleducado. [[ answer: |EndNode]]",
+		"position": {
+			"x": 966,
+			"y": 57
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- Gracias por creerme.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1182,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Gracias de nuevo.\n[[ answer: |Node20]]",
+		"position": {
+			"x": 790,
+			"y": -705
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. EXPULSAR DEL TREN|Node8]] [[B. PERMITIR VIAJAR|Node9]]",
+		"position": {
+			"x": 1098,
+			"y": 562
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_1",
+		"tags": "",
+		"body": "- No sé cómo ha podido pasar. Ha debido caerse de mi bolsillo.\n[[ answer: |Node2_2]]",
+		"position": {
+			"x": 111,
+			"y": 1
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_2",
+		"tags": "",
+		"body": "- ¿Puedo ver el recibo de pago del billete? \n[[ answer: |Node2_3]]",
+		"position": {
+			"x": 108,
+			"y": 224
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_3",
+		"tags": "",
+		"body": "- Nunca guardo los recibos. \n[[ answer: |Node3]]",
+		"position": {
+			"x": 120,
+			"y": 445
+		},
+		"colorID": 0
+	}
+]

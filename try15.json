@@ -1,0 +1,162 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿su billete?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 415,
+			"y": -243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "Ticket",
+		"body": "- Sí. \n[[ answer: |Node3]]",
+		"position": {
+			"x": 412,
+			"y": -23
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[A. PERMITIR VIAJAR |Node5]] [[B. ¿Puedo ver su identificación? |Node4]]",
+		"position": {
+			"x": 384,
+			"y": 219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- ¿Por qué?\n[[ answer: |Node6]]",
+		"position": {
+			"x": 633,
+			"y": 281
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "End",
+		"body": "- Gracias, que tenga un buen viaje.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 632,
+			"y": 73
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- Necesito comprobar que el billete es suyo.\n[[ answer: |Node6_1]]",
+		"position": {
+			"x": 853,
+			"y": 276
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End Dropout",
+		"body": "- Menudo cretino.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 964,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- ...\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1183,
+			"y": 56
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- ¿Tiene algún otro problema conmigo?\n[[ answer: |Node20]]",
+		"position": {
+			"x": 792,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_1",
+		"tags": "",
+		"body": "- ¿A todos los pasajeros les pide la identificación?\n[[ answer: |Node6_2]]",
+		"position": {
+			"x": 854,
+			"y": 502
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. Tiene que salir del tren|Node8]] [[B. Puede viajar, perdone|Node9]]",
+		"position": {
+			"x": 1393,
+			"y": 369
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_2",
+		"tags": "",
+		"body": "- Solo es una comprobación para evitar riesgos.\n[[ answer: |Node6_3]]",
+		"position": {
+			"x": 854,
+			"y": 743
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_3",
+		"tags": "",
+		"body": "- ¿Qué quiere decir con eso? ¿Como soy árabe tengo que ser una persona peligrosa?\n[[ answer: |Node50]]",
+		"position": {
+			"x": 1075,
+			"y": 781
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node50",
+		"tags": "ID",
+		"body": "...Eso se llama racismo. No le voy a dar mi documento, me parece una falta de respeto que me lo pida.\n[[ answer: |Node6_4]]",
+		"position": {
+			"x": 1379,
+			"y": 653
+		},
+		"colorID": 0
+	}
+]

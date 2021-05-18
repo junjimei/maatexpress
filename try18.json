@@ -1,0 +1,172 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿Su billete?\n[[ answer: |Node2]]",
+		"position": {
+			"x": 415,
+			"y": -243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "Ticket",
+		"body": "- Debe ser un error. Mi billete ya ha sido revisado.\n[[ answer: |Node3]]",
+		"position": {
+			"x": 412,
+			"y": -22
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[A. EXPULSAR DEL TREN |Node5]] [[B. ¿Revisado por quién? |Node4]]",
+		"position": {
+			"x": 405,
+			"y": 199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Por el revisor.\n[[ answer: |Node6]]",
+		"position": {
+			"x": 640,
+			"y": 281
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "- ¿Pero qué pasa?\n[[ answer: |Node5_1]]",
+		"position": {
+			"x": 640,
+			"y": 75
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- Yo soy el revisor.\n[[ answer: |Node6_1]]",
+		"position": {
+			"x": 856,
+			"y": 278
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "Dropout",
+		"body": "- Incomprensible.\n[[ answer: |Node]]",
+		"position": {
+			"x": 960,
+			"y": 51
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- Gracias.[[ answer: |EndNode]]",
+		"position": {
+			"x": 1184,
+			"y": 56
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- ¿Otra vez?\n[[ answer: |Node20]]",
+		"position": {
+			"x": 792,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_1",
+		"tags": "",
+		"body": "- Yo no lo sé, pero pónganse de acuerdo.\n[[ answer: |Node6_4]]",
+		"position": {
+			"x": 857,
+			"y": 504
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. EXPULSAR DEL TREN|Node8]] [[B. PERMITIR VIAJAR|Node9]]",
+		"position": {
+			"x": 1098,
+			"y": 562
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5_1",
+		"tags": "",
+		"body": "- Un billete troquelado ya no es válido.\n[[ answer: |Node5_2]]",
+		"position": {
+			"x": 653,
+			"y": -140
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5_2",
+		"tags": "",
+		"body": "- Ya le he dicho que me lo ha troquelado el revisor.\n[[ answer: |Node5_3]]",
+		"position": {
+			"x": 663,
+			"y": -358
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5_3",
+		"tags": "",
+		"body": "- No es posible, yo soy el revisor.\n[[ answer: |Node8]]",
+		"position": {
+			"x": 311,
+			"y": -491
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "End",
+		"body": "...\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 913,
+			"y": -203
+		},
+		"colorID": 0
+	}
+]

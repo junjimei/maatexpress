@@ -1,0 +1,82 @@
+[
+	{
+		"title": "StartP3",
+		"tags": "",
+		"body": "- Su billete, por favor.[[ answer: |Node1]]",
+		"position": {
+			"x": 148,
+			"y": 32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "[[Este billete es falso|Node3]] [[PERMITIR VIAJAR|Node4]]",
+		"position": {
+			"x": 367,
+			"y": 33
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "- ¿Cómo dice? Es un billete normal, me lo vendió una persona en el andén porque no iba a viajar.[[ answer: |Node5]]",
+		"position": {
+			"x": 599,
+			"y": -107
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 601,
+			"y": 141
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "[[Los billetes son intransferibles|Node6]] [[De acuerdo, perdone las molestias|EndNode]]",
+		"position": {
+			"x": 813,
+			"y": -104
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1042,
+			"y": -223
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1052,
+			"y": -4
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "Ticket",
+		"body": "- Aquí está.[[|Node2]]",
+		"position": {
+			"x": 260,
+			"y": 264
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,172 @@
+[
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Su billete, por favor.[[ answer: |Node10]]",
+		"position": {
+			"x": 1709,
+			"y": -315
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "- Se cree muy importante pidiendo billetes, ¿no?[[ answer: |Node11]]",
+		"position": {
+			"x": 1496,
+			"y": -103
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "- ¿Perdón?[[ answer: |Node12]]",
+		"position": {
+			"x": 1498,
+			"y": 116
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "- Digo que se cree muy importante... [[ answer: |Node12_1]]",
+		"position": {
+			"x": 1498,
+			"y": 336
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node19]] [[Quizá deberías bajar del tren.|Node15]]",
+		"position": {
+			"x": 1725,
+			"y": 331
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "",
+		"body": "- ¿Qué? No lo entiendo...[[ answer: |Node15_2]]",
+		"position": {
+			"x": 1768,
+			"y": 87
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "End",
+		"body": "- Gracias.[[|EndNode]]",
+		"position": {
+			"x": 1602,
+			"y": 603
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "[[Me ha faltado al respeto.|Node18]] [[No he dicho nada, puede viajar.|Node19]]",
+		"position": {
+			"x": 1994,
+			"y": -26
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node18",
+		"tags": "",
+		"body": "- Perdone, ha sido una chorrada, tengo un mal día.[[PERMITIR VIAJAR|Node22]][[EXPULSAR DEL TREN|Node23]]",
+		"position": {
+			"x": 2220,
+			"y": -134
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node19",
+		"tags": "End",
+		"body": "- Gracias.[[ answer: |EndNode]]",
+		"position": {
+			"x": 2222,
+			"y": 78
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node22",
+		"tags": "End",
+		"body": "- Puede viajar, pero deje de comportarse así.[[ answer: |EndNode]]",
+		"position": {
+			"x": 2465,
+			"y": -280
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node23",
+		"tags": "End Dropout",
+		"body": "- Lo siento, haberlo pensado antes de insultarme.[[ answer: |EndNode]]",
+		"position": {
+			"x": 2475,
+			"y": -53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12_1",
+		"tags": "Ticket",
+		"body": "... para ser un vulgar revisor de tren.[[ answer: |Node13]]",
+		"position": {
+			"x": 1847,
+			"y": 547
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15_2",
+		"tags": "",
+		"body": "...He pagado mi billete.[[ answer: |Node16]]",
+		"position": {
+			"x": 2109,
+			"y": 430
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Ya me ha pedido el billete.[[ answer: |Node24]]",
+		"position": {
+			"x": 1043,
+			"y": -721
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node24",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 1280,
+			"y": -720
+		},
+		"colorID": 0
+	}
+]

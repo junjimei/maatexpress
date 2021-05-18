@@ -1,0 +1,22 @@
+[
+	{
+		"title": "TalkedAlreadyP1",
+		"tags": "",
+		"body": "Ya ha revisado mi billete.[[ answer: |Node1]] |]]",
+		"position": {
+			"x": 84,
+			"y": -188
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "end1",
+		"body": "",
+		"position": {
+			"x": 83,
+			"y": 41
+		},
+		"colorID": 0
+	}
+]
