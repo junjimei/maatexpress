@@ -1,0 +1,422 @@
+[
+	{
+		"title": "StartP1",
+		"tags": "",
+		"body": "- Su billete, por favor.[[ answer: |Node1]]",
+		"position": {
+			"x": 97,
+			"y": -2
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "Ticket",
+		"body": "- Aquí tiene.[[ answer: |Node2]]",
+		"position": {
+			"x": 98,
+			"y": -225
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "[[A. Este billete es falso|Node3]] [[B. PERMITIR VIAJAR|Node4]]",
+		"position": {
+			"x": 317,
+			"y": -225
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "- ¿Cómo dice? Es un billete normal, me lo vendió una persona en el andén porque no iba a viajar.[[ answer: |Node5]]",
+		"position": {
+			"x": 547,
+			"y": -269
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "End",
+		"body": "- Muchas gracias.[[ answer: |EndNode]]",
+		"position": {
+			"x": 453,
+			"y": 4
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "[[A. Los billetes son intransferibles.|Node6]] [[B. De acuerdo, perdone las molestias.|Node5_1]]",
+		"position": {
+			"x": 771,
+			"y": -144
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- ¿Y dónde está esa información disponible para el cliente?[[ answer: |Node8]]",
+		"position": {
+			"x": 795,
+			"y": 159
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Ya ha revisado mi billete.[[ answer: |Node40_2]]",
+		"position": {
+			"x": 1133,
+			"y": -373
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "",
+		"body": "- Es algo lógico.[[ answer: |Node9]]",
+		"position": {
+			"x": 536,
+			"y": 261
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "",
+		"body": "- No es nada lógico. Cada empresa ferroviaria funciona de una determinada manera, no pueden pretender que el cliente lo sepa todo si no se le informa...[[ answer: |Node10]]",
+		"position": {
+			"x": 315,
+			"y": 262
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "... Como abogado, sé muy bien que el primer derecho básico de consumidores y usuarios es el derecho a una información correcta,[[ answer: |Node11]]",
+		"position": {
+			"x": 99,
+			"y": 259
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "... usted debería saberlo también.[[ answer: |Node12]]",
+		"position": {
+			"x": -122,
+			"y": 259
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "... Si me echa del tren podría denunciarle y le caería una bien gorda a su empresa y a usted.[[ answer: |Node13]]",
+		"position": {
+			"x": -124,
+			"y": 470
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "[[A. PERMITIR VIAJAR|Node14]] [[B. EXPULSAR DEL TREN|Node15]]",
+		"position": {
+			"x": 97,
+			"y": 469
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "End",
+		"body": "- Menos mal que ha entrado en razón.[[ answer: |EndNode]]",
+		"position": {
+			"x": 396,
+			"y": 475
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "End Dropout",
+		"body": "- No tiene ni idea del error que ha cometido.[[ answer: |EndNode]]",
+		"position": {
+			"x": 247,
+			"y": 705
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1115,
+			"y": -132
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP2",
+		"tags": "",
+		"body": "- Gracias otra vez.[[ answer: |Node40]]",
+		"position": {
+			"x": 1711,
+			"y": -308
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node40",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 1830,
+			"y": -530
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node40_2",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 1357,
+			"y": -333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5_1",
+		"tags": "End",
+		"body": "...[[ answer: |EndNode]]",
+		"position": {
+			"x": 1100,
+			"y": 156
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartP2",
+		"tags": "",
+		"body": "- ¿Me permiten sus billetes? [[ answer: |Node25]]",
+		"position": {
+			"x": 1737,
+			"y": -6
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node25",
+		"tags": "",
+		"body": "- Aquí tiene. [[ answer: |Node26]]",
+		"position": {
+			"x": 1738,
+			"y": 217
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node26",
+		"tags": "",
+		"body": "[[SUS BILLETES ESTÁN CADUCADOS|Node27]] [[PERMITIR VIAJAR|Node28]]",
+		"position": {
+			"x": 1967,
+			"y": 218
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node27",
+		"tags": "",
+		"body": "- Por favor señor, no lo haga. Pagamos los billetes, pero ayer no pudimos llegar a tiempo a la estación.[[ answer: |Node33]]",
+		"position": {
+			"x": 2190,
+			"y": 104
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node28",
+		"tags": "",
+		"body": "- Dios le bendiga, señor. Necesitábamos coger este tren.[[ answer: |Node29]]",
+		"position": {
+			"x": 2193,
+			"y": 320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node29",
+		"tags": "",
+		"body": "[[¿Por qué?|Node30]][[No hay de qué|Node31]]",
+		"position": {
+			"x": 2157,
+			"y": 532
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node30",
+		"tags": "End",
+		"body": ".[[ answer: |EndNode]]",
+		"position": {
+			"x": 1906,
+			"y": 457
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node31",
+		"tags": "End",
+		"body": ".[[ answer: |EndNode]]",
+		"position": {
+			"x": 1911,
+			"y": 675
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node33",
+		"tags": "",
+		"body": "...  Necesitamos coger este tren.[[ answer: |Node34]]",
+		"position": {
+			"x": 2413,
+			"y": 100
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node34",
+		"tags": "",
+		"body": "[[¿Hay algún problema?|Node35]] [[Tienen que salir del tren.|Node36]]",
+		"position": {
+			"x": 2531,
+			"y": -122
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node35",
+		"tags": "",
+		"body": "- Estamos huyendo de alguien que nos quiere hacer daño.[[ answer: |Node38]]",
+		"position": {
+			"x": 2754,
+			"y": -174
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node36",
+		"tags": "",
+		"body": "- Se lo ruego, déjenos viajar.[[ answer: |Node43]]",
+		"position": {
+			"x": 2868,
+			"y": 136
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node38",
+		"tags": "",
+		"body": "- ¿Quién les quiere hacer daño?[[ answer: |Node39]]",
+		"position": {
+			"x": 2977,
+			"y": -175
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node39",
+		"tags": "",
+		"body": "- Mi marido se ha convertido en otra persona…[[ answer: |Node41]]",
+		"position": {
+			"x": 3201,
+			"y": -173
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node41",
+		"tags": "",
+		"body": "...Hemos tenido que escapar de casa.[[ answer: |Node42]]",
+		"position": {
+			"x": 3228,
+			"y": 54
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node42",
+		"tags": "",
+		"body": "...Por favor, mi hija es muy pequeña. No tendremos otra oportunidad.[[ answer: |Node43]]",
+		"position": {
+			"x": 3233,
+			"y": 275
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node43",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node44]] [[EXPULSAR DEL TREN|Node46]]",
+		"position": {
+			"x": 2993,
+			"y": 436
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node44",
+		"tags": "",
+		"body": "- Dios le bendiga, nos ha salvado la vida.[[|Node45]]",
+		"position": {
+			"x": 2680,
+			"y": 620
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node45",
+		"tags": "End",
+		"body": ".[[|EndNode]]",
+		"position": {
+			"x": 2403,
+			"y": 556
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node46",
+		"tags": "",
+		"body": "- Nos ha condenado a mi hija y a mí.[[ answer: |Node47]]",
+		"position": {
+			"x": 3001,
+			"y": 676
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node47",
+		"tags": "",
+		"body": ".[[ answer: |EndNode]]",
+		"position": {
+			"x": 2379,
+			"y": 817
+		},
+		"colorID": 0
+	}
+]

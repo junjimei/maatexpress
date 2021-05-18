@@ -1,0 +1,292 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- ¿Puedo ver su billete?[[ answer: |Node2]]",
+		"position": {
+			"x": 414,
+			"y": -244
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "Ticket",
+		"body": "- Sí, aquí tiene.\n[[ answer: |Node2_1]]",
+		"position": {
+			"x": 412,
+			"y": -25
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[ A. Sí, subieron al tren |Node5]]\n[[ B. No, no las he visto |Node4]]",
+		"position": {
+			"x": 403,
+			"y": 199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "- Muchísimas gracias.Tenía miedo de que les hubiera pasado algo malo.\n[[ answer: |Node16]]",
+		"position": {
+			"x": 667,
+			"y": 78
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- Bueno, mi mujer tiene mucho carácter. \n[[ answer: |Node6_0]]",
+		"position": {
+			"x": 696,
+			"y": 507
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "",
+		"body": "[[A. PERMITIR VIAJAR|Node9]]\n[[B. Va a tener que bajar del tren|Node8]]",
+		"position": {
+			"x": 1077,
+			"y": 289
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End Dropout",
+		"body": "- Las encontraré igualmente.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 963,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- Gracias. \n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1182,
+			"y": 53
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1122,
+			"y": -391
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Ya ha visto mi billete.[[ answer: |Node20]]",
+		"position": {
+			"x": 790,
+			"y": -705
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_3",
+		"tags": "",
+		"body": "- Ya veo, gracias igualmente.\n[[ answer: |Node16_3]]",
+		"position": {
+			"x": 1145,
+			"y": 555
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_1",
+		"tags": "",
+		"body": "...¿Ha visto por aquí a una madre con su hija pequeña? Son mi familia, las estoy buscando desde hace un día.\n[[ answer: |Node2_2]]",
+		"position": {
+			"x": 172,
+			"y": -28
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_2",
+		"tags": "",
+		"body": "...Estoy realmente preocupado.\n[[ answer: |Node3]]",
+		"position": {
+			"x": 174,
+			"y": 194
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "[[A. No hay de qué, tenga un buen viaje|Node16_1]]\n[[B. ¿Por qué no están con usted?|Node16_2]]",
+		"position": {
+			"x": 662,
+			"y": -158
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16_1",
+		"tags": "End",
+		"body": "- Lo mismo digo.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 780,
+			"y": -379
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_0",
+		"tags": "",
+		"body": "...Se enfadó y salieron precipitadamente. No quiero que les pase nada malo.\n[[ answer: |Node6_2]]",
+		"position": {
+			"x": 918,
+			"y": 505
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_2",
+		"tags": "",
+		"body": "[[A. No las he visto|Node6_3]] \n[[B. Sí, subieron al tren|Node10]]",
+		"position": {
+			"x": 718,
+			"y": 738
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "- Gracias a Dios. ¿Y dónde están?\n[[ answer: |Node11]]",
+		"position": {
+			"x": 949,
+			"y": 819
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "[[A. Fueron expulsadas del tren|Node13]]\n[[B. En el vagón 13|Node12]]",
+		"position": {
+			"x": 1168,
+			"y": 818
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "- Gracias por su ayuda.\n[[ answer: |Node7]]",
+		"position": {
+			"x": 1838,
+			"y": 457
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "- Oh, ¿recuerda a qué estación se dirigían?\n[[ answer: |Node14]]",
+		"position": {
+			"x": 1399,
+			"y": 798
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "",
+		"body": "[[A. A Eluro|Node12]]\n[[B. No lo recuerdo|Node12]]",
+		"position": {
+			"x": 1621,
+			"y": 798
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16_2",
+		"tags": "",
+		"body": "- Mi mujer tiene mucho carácter, ya sabe. Se enfadó y salieron precipitadamente. Cosas de mujeres.\n[[ answer: |Node16_3]]",
+		"position": {
+			"x": -53,
+			"y": -485
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16_3",
+		"tags": "",
+		"body": "[[A. Debería salir del tren|Node16_4]]\n[[B. PERMITIR VIAJAR|Node9]]",
+		"position": {
+			"x": 65,
+			"y": -709
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16_4",
+		"tags": "",
+		"body": "- ¿Cómo? ¿Por qué motivo? Tengo un billete válido, usted no tiene derecho a echarme. \n[[ answer: |Node16_5]]",
+		"position": {
+			"x": 184,
+			"y": -928
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16_5",
+		"tags": "",
+		"body": "[[A. Ha sido un error|Node9]]\n[[B. No me fío de usted, tiene que bajar|Node8]]",
+		"position": {
+			"x": 303,
+			"y": -1152
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- ¿Está seguro? Juraría que las he visto subir a este tren.\n[[ answer: |Node4_1]]",
+		"position": {
+			"x": 353,
+			"y": 435
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4_1",
+		"tags": "",
+		"body": "- ¿Y por qué no están con usted?\n[[ answer: |Node6]]",
+		"position": {
+			"x": 417,
+			"y": 715
+		},
+		"colorID": 0
+	}
+]

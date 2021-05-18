@@ -1,0 +1,252 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, necesito ver su billete.\n[[ answer: |Node2]]",
+		"position": {
+			"x": 415,
+			"y": -243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "- No, verá. Yo soy el revisor del tren.\n[[ answer: |Node2_1]]",
+		"position": {
+			"x": 413,
+			"y": -22
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "- He comprobado los billetes de todos los pasajeros.\n[[ answer: |Node4]]",
+		"position": {
+			"x": 404,
+			"y": 198
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Hacer mi trabajo no le convierte en revisor, de hecho le convierte en impostor. \n[[ answer: |Node6_2]]",
+		"position": {
+			"x": 617,
+			"y": 314
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- ¿Por qué?\n[[ answer: |NodeNode]]",
+		"position": {
+			"x": 1252,
+			"y": 277
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 2486,
+			"y": -399
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Gracias otra vez!\n[[ answer: |Node20]]",
+		"position": {
+			"x": 792,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. Seguí las instrucciones de un manual|Node6_5]] [[B. Pensaba que era lo que debía hacer|Node9]]",
+		"position": {
+			"x": 1097,
+			"y": 561
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_5",
+		"tags": "",
+		"body": "- ¿De dónde sacó el manual?\n[[ answer: |Node6_8]]",
+		"position": {
+			"x": 1341,
+			"y": 637
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2_1",
+		"tags": "",
+		"body": "- ¿Cómo? El revisor soy yo. ¿Qué cree que está haciendo?\n[[ answer: |Node3]]",
+		"position": {
+			"x": 112,
+			"y": 2
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_8",
+		"tags": "",
+		"body": "- Lo encontré en el asiento del último vagón.\n[[ answer: |Node6_9]]",
+		"position": {
+			"x": 1571,
+			"y": 636
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_9",
+		"tags": "",
+		"body": "- ¿Y usted hace caso del primer manual que se encuentra en un asiento?\n[[ answer: |NodeNode]]",
+		"position": {
+			"x": 1473,
+			"y": 277
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_2",
+		"tags": "Ticket",
+		"body": "...Yo tengo un contrato de revisor. ¿Usted tiene uno?\n[[ answer: |Node]]",
+		"position": {
+			"x": 611,
+			"y": 568
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_3",
+		"tags": "",
+		"body": "- ¿Y qué le ha llevado a hacer esto?\n[[ answer: |Node6_4]]",
+		"position": {
+			"x": 855,
+			"y": 748
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NodeNode",
+		"tags": "",
+		"body": "- Debería aprender a pensar por sí mismo.\n[[ answer: |Node60]]",
+		"position": {
+			"x": 1372,
+			"y": 57
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node60",
+		"tags": "",
+		"body": "...¿Entiende ya que es un pasajero y que debe llevar un billete válido para poder viajar?\n[[ answer: |Node61]]",
+		"position": {
+			"x": 1510,
+			"y": -175
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node61",
+		"tags": "",
+		"body": "[[Supongo que sí|Node62]]\n[[ No estoy seguro |Node62]]",
+		"position": {
+			"x": 1710,
+			"y": 55
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node62",
+		"tags": "",
+		"body": "- Déjeme ver su billete.\n[[ answer: |Node63]]",
+		"position": {
+			"x": 1788,
+			"y": -178
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node63",
+		"tags": "",
+		"body": "- No tengo billete.\n[[ answer: |Node64]]",
+		"position": {
+			"x": 1936,
+			"y": 51
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node64",
+		"tags": "Dropout",
+		"body": "- En ese caso tiene que abandonar el tren. Si no lo hace, seguridad lo expulsará y podrían detenerle.\n[[ answer: |FinalDecision]]",
+		"position": {
+			"x": 2109,
+			"y": -181
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "- No.\n[[ answer: |Node6_3]]",
+		"position": {
+			"x": 565,
+			"y": 776
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FinalDecision",
+		"tags": "",
+		"body": "[[A. ABANDONAR EL TREN|LeaveNode]]\n[[B. QUEDARSE|StayNode]]",
+		"position": {
+			"x": 2215,
+			"y": 65
+		},
+		"colorID": 0
+	},
+	{
+		"title": "LeaveNode",
+		"tags": "Leave End",
+		"body": "...\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 2365,
+			"y": -191
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StayNode",
+		"tags": "Stay End",
+		"body": "...\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 2466,
+			"y": 29
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,202 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "- Buenos días, ¿puedo ver su billete?\r\n[[ answer: |Node]]",
+		"position": {
+			"x": 416,
+			"y": -242
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "[[ A. PERMITIR VIAJAR |Node5]] [[ B. EXPULSAR DEL TREN |Node4]]",
+		"position": {
+			"x": 310,
+			"y": 36
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Tiene que bajar del tren.\n[[ answer: |Node6]]",
+		"position": {
+			"x": 596,
+			"y": 224
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "End",
+		"body": "- Gracias...\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 600,
+			"y": 2
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- ¿Por qué?\n[[ answer: |Node6_1]]",
+		"position": {
+			"x": 593,
+			"y": 433
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "End Dropout",
+		"body": "- Es usted un hipócrita.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 966,
+			"y": 57
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "End",
+		"body": "- Puedes quedarte, pero la próxima vez, compra un billete de verdad.\n[[ answer: |EndNode]]",
+		"position": {
+			"x": 1184,
+			"y": 56
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1123,
+			"y": -390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "End",
+		"body": "- Gracias otra vez!\n[[ answer: |Node20]]",
+		"position": {
+			"x": 792,
+			"y": -704
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "End",
+		"body": "- No hay de qué.",
+		"position": {
+			"x": 548,
+			"y": -708
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_1",
+		"tags": "",
+		"body": "- Su billete es falso.\n[[ answer: |Node6_2]]",
+		"position": {
+			"x": 804,
+			"y": 421
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_4",
+		"tags": "",
+		"body": "[[A. Fuera del tren|Node8]] [[B. PERMITIR VIAJAR|Node9]]",
+		"position": {
+			"x": 1098,
+			"y": 562
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_2",
+		"tags": "",
+		"body": "- ¿Y qué?\n[[ answer: |Node6_3]]",
+		"position": {
+			"x": 473,
+			"y": 642
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6_3",
+		"tags": "",
+		"body": "- Evidentemente no puede viajar con un billete falso, son las normas.\n[[ answer: |Node16]]",
+		"position": {
+			"x": 709,
+			"y": 665
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "- ¿Por qué?\n[[ answer: |Node17]]",
+		"position": {
+			"x": 603,
+			"y": 876
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node17",
+		"tags": "",
+		"body": "- No sería justo para las personas que pagan su billete.\n[[ answer: |Node18]]",
+		"position": {
+			"x": 823,
+			"y": 877
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node18",
+		"tags": "",
+		"body": "- ¿Y used cree que ha sido justo hasta ahora?\n[[ answer: |Node19]]",
+		"position": {
+			"x": 762,
+			"y": 1088
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node19",
+		"tags": "",
+		"body": "- Le he estado observando, usted no ha tratado por igual a los viajeros. \n[[ answer: |Node27]]",
+		"position": {
+			"x": 984,
+			"y": 1088
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node27",
+		"tags": "",
+		"body": "...Luego no puede juzgarme a mí tampoco. Déjeme en paz y yo le dejo en paz a usted.\n[[ answer: |Node6_4]]",
+		"position": {
+			"x": 1103,
+			"y": 867
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "Ticket",
+		"body": "- Sí, aquí tiene.\n[[ answer: |Node3]]",
+		"position": {
+			"x": 82,
+			"y": -99
+		},
+		"colorID": 0
+	}
+]

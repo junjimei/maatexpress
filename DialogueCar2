@@ -1,0 +1,272 @@
+[
+	{
+		"title": "StartP1",
+		"tags": "",
+		"body": "- Su billete, por favor.[[ answer: |Node2]]",
+		"position": {
+			"x": 199,
+			"y": 59
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "[[ PERMITIR VIAJAR.|Node3]] [[ Este billete es falso.|Node4]]",
+		"position": {
+			"x": 420,
+			"y": 61
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "- Gracias. [[ answer: |End]]",
+		"position": {
+			"x": 562,
+			"y": 290
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- ¿Cómo dice? Es un billete normal, me lo vendió una persona en el andén porque no iba a viajar. [[ answer: |Node5]]",
+		"position": {
+			"x": 267,
+			"y": 291
+		},
+		"colorID": 0
+	},
+	{
+		"title": "End",
+		"tags": "End",
+		"body": "Empty Text",
+		"position": {
+			"x": 1165,
+			"y": 556
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "[[Los billetes son intransferibles.|Node6]] [[ De acuerdo, perdone la molestia. |End]]",
+		"position": {
+			"x": 55,
+			"y": 508
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "- ¿Y dónde está esa información disponible para el cliente? [[answer:|Node7]]",
+		"position": {
+			"x": 175,
+			"y": 736
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "",
+		"body": "- Es algo lógico. [[answer:|Node8]]",
+		"position": {
+			"x": -74,
+			"y": 735
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "",
+		"body": "- No es nada lógico. Cada empresa ferroviaria funciona de una determinada manera, no pueden pretender que el cliente lo sepa todo si no se le informa...[[answer:|Node9]]",
+		"position": {
+			"x": -75,
+			"y": 956
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "",
+		"body": "... Soy abogado y sé muy bien que el primer derecho básico de consumidores y usuarios es el derecho a una información correcta, usted debería saberlo también... [[answer|Node10]]",
+		"position": {
+			"x": 159,
+			"y": 956
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "... Si me echa del tren podría denunciarle y le caería una bien gorda a su empresa y a usted. [[|Node11]]",
+		"position": {
+			"x": 382,
+			"y": 955
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node12]] [[EXPULSAR DEL TREN|Node13]]",
+		"position": {
+			"x": 607,
+			"y": 955
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "- Menos mal que ha entrado en razón. [[|End]]",
+		"position": {
+			"x": 855,
+			"y": 832
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "No tiene ni idea del error que ha cometido.[[|End]]",
+		"position": {
+			"x": 951,
+			"y": 1053
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartP2",
+		"tags": "",
+		"body": "- ¿Billete? [[ answer: |Node14]]",
+		"position": {
+			"x": 1520,
+			"y": 7
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "",
+		"body": "- Se cree muy importante pidiendo billetes, ¿no?[[ answer: |Node15]]",
+		"position": {
+			"x": 1519,
+			"y": 223
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "",
+		"body": "- ¿Perdón? [[ answer: |Node16]]",
+		"position": {
+			"x": 1518,
+			"y": 451
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "Ticket",
+		"body": "- Digo que se cree muy importante para ser un vulgar revisor de tren.[[|Node17]]",
+		"position": {
+			"x": 1736,
+			"y": 449
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node17",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node18]][[EXPULSAR DEL TREN|Node19]]",
+		"position": {
+			"x": 1747,
+			"y": 228
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node18",
+		"tags": "",
+		"body": "- Gracias.[[|End]]",
+		"position": {
+			"x": 1784,
+			"y": -74
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node19",
+		"tags": "",
+		"body": "- Tiene que salir del tren. [[|Node20]]",
+		"position": {
+			"x": 2002,
+			"y": 357
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "",
+		"body": "- ¿Qué? No lo entiendo. He pagado mi billete. [[|Node22]]",
+		"position": {
+			"x": 1999,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node22",
+		"tags": "",
+		"body": "[[No se puede faltar al respeto a las personas gratuitamente.|Node23]] [[No he dicho nada, puede viajar.|End]]",
+		"position": {
+			"x": 2229,
+			"y": 820
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node23",
+		"tags": "",
+		"body": "- Perdone ha sido una chorrada, tengo un mal día. [[|Node24]]",
+		"position": {
+			"x": 2313,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node24",
+		"tags": "",
+		"body": "[[EXPULSAR DEL TREN|Node26]] [[PERMITIR VIAJAR|Node27]]",
+		"position": {
+			"x": 2314,
+			"y": 373
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node26",
+		"tags": "",
+		"body": "Lo siento, haberlo pensado antes de insultarme. [[|End]]",
+		"position": {
+			"x": 2547,
+			"y": 544
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node27",
+		"tags": "",
+		"body": "Puede viajar, pero deje de comportarse así.[[|End]]",
+		"position": {
+			"x": 2548,
+			"y": 322
+		},
+		"colorID": 0
+	}
+]

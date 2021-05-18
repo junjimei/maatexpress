@@ -1,0 +1,322 @@
+[
+	{
+		"title": "StartP1",
+		"tags": "",
+		"body": "- Buenos días, ¿su billete? [[ answer: |Node1]]",
+		"position": {
+			"x": 148,
+			"y": 26
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node1",
+		"tags": "TicketP1",
+		"body": "- Sí. Aquí tiene. [[ answer: |Node2]]",
+		"position": {
+			"x": 147,
+			"y": 243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node2",
+		"tags": "",
+		"body": "[[ PERMITIR VIAJAR |Node3]] [[ EXPULSAR DEL TREN |Node4]]",
+		"position": {
+			"x": 145,
+			"y": 456
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node3",
+		"tags": "",
+		"body": "- Muchas gracias.[[|End]]",
+		"position": {
+			"x": -31,
+			"y": 692
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node4",
+		"tags": "",
+		"body": "- Tiene que salir del tren.[[|Node5]]",
+		"position": {
+			"x": 319,
+			"y": 699
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node5",
+		"tags": "",
+		"body": "¿Cómo? ¿Pero por qué?[[|Node6]]",
+		"position": {
+			"x": 424,
+			"y": 461
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node6",
+		"tags": "",
+		"body": "[[Porque yo lo digo.|Node7]] [[Perdone, ha sido un error. Su billete es válido.|Node8]]",
+		"position": {
+			"x": 423,
+			"y": 236
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node7",
+		"tags": "Dropout",
+		"body": "No lo entiendo.[[ answer: |End]]",
+		"position": {
+			"x": 558,
+			"y": 6
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node8",
+		"tags": "",
+		"body": "De acuerdo... Gracias.[[ answer: |End]]",
+		"position": {
+			"x": 682,
+			"y": 235
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartP2",
+		"tags": "",
+		"body": "- ¿Me permiten sus billetes?[[ answer: |Node9]]",
+		"position": {
+			"x": 1022,
+			"y": 43
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node9",
+		"tags": "TicketP2",
+		"body": "- Sí, aquí tiene.[[ answer: |Node10]]",
+		"position": {
+			"x": 1018,
+			"y": 271
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node10",
+		"tags": "",
+		"body": "[[Sus billetes están caducados.|Node11]] [[PERMITIR VIAJAR|Node12]]",
+		"position": {
+			"x": 1017,
+			"y": 501
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node11",
+		"tags": "",
+		"body": "- Por favor señor, no lo haga. Pagamos los billetes, pero ayer no pudimos llegar a tiempo a la estación. Necesitamos coger este tren.[[|Node20]]",
+		"position": {
+			"x": 1264,
+			"y": 585
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node12",
+		"tags": "",
+		"body": "- Dios le bendiga, señor. Necesitábamos coger este tren.[[ answer: |Node13]]",
+		"position": {
+			"x": 1268,
+			"y": 363
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node13",
+		"tags": "",
+		"body": "[[¿Por qué?|Node14]] [[ No hay de qué|Node15]]",
+		"position": {
+			"x": 1387,
+			"y": 141
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node14",
+		"tags": "",
+		"body": "- La verdad, estamos huyendo de alguien.[[|Node16]]",
+		"position": {
+			"x": 1507,
+			"y": -79
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node15",
+		"tags": "",
+		"body": "- Hasta luego.[[|End]]",
+		"position": {
+			"x": 1544,
+			"y": 365
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node16",
+		"tags": "",
+		"body": "- ¿Hay algún problema?[[|Node17]]",
+		"position": {
+			"x": 1727,
+			"y": 109
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node17",
+		"tags": "",
+		"body": "- Mi marido se ha convertido en otra persona... Hemos tenido que escapar de casa.[[|Node18]]",
+		"position": {
+			"x": 1788,
+			"y": 329
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node18",
+		"tags": "",
+		"body": "- Me alegro de que ahora ya estén a salvo. Pueden viajar sin problemas.[[|Node19]]",
+		"position": {
+			"x": 1782,
+			"y": 546
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node19",
+		"tags": "",
+		"body": "- Dios le bendiga, nos ha salvado la vida.[[|End]]",
+		"position": {
+			"x": 2237,
+			"y": 545
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node20",
+		"tags": "",
+		"body": "[[¿Hay algún problema?|Node21]] [[Tienen que salir del tren.|Node22]]",
+		"position": {
+			"x": 1345,
+			"y": 805
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node21",
+		"tags": "",
+		"body": "- Estamos huyendo de alguien que nos quiere hacer daño.[[|Node23]]",
+		"position": {
+			"x": 1576,
+			"y": 803
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node22",
+		"tags": "",
+		"body": "- Se lo ruego, déjenos viajar.[[|Node25]]",
+		"position": {
+			"x": 1352,
+			"y": 1023
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node23",
+		"tags": "",
+		"body": "- ¿Quién les quiere hacer daño?[[|Node24]]",
+		"position": {
+			"x": 1803,
+			"y": 803
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node24",
+		"tags": "",
+		"body": "- Mi marido se ha convertido en otra persona… Hemos tenido que escapar de casa. Por favor, mi hija es muy pequeña. No tendremos otra oportunidad. [[|Node25]]",
+		"position": {
+			"x": 2029,
+			"y": 803
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node25",
+		"tags": "",
+		"body": "[[PERMITIR VIAJAR|Node19]] [[EXPULSAR DEL TREN |Node26]]",
+		"position": {
+			"x": 2388,
+			"y": 1024
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node26",
+		"tags": "",
+		"body": "- Nos ha condenado a mi hija y a mí.[[|End]]",
+		"position": {
+			"x": 2456,
+			"y": 550
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "",
+		"body": "- Ya le he enseñado mi billete.[[ pues que tengas un buen día |End]][[ Mamarracho!|NodeMamarracho]]",
+		"position": {
+			"x": -251,
+			"y": -135
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP2",
+		"tags": "",
+		"body": "- Gracias otra vez.[[ answer: |End]]",
+		"position": {
+			"x": 237,
+			"y": -484
+		},
+		"colorID": 0
+	},
+	{
+		"title": "End",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 707,
+			"y": -467
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NodeMamarracho",
+		"tags": "",
+		"body": "HAS LLAMADO MAMARRACHO A UN PASAJERO. GAME OVER",
+		"position": {
+			"x": -346,
+			"y": 172
+		},
+		"colorID": 0
+	}
+]

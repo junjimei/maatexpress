@@ -1,0 +1,242 @@
+[
+	{
+		"title": "EndNode",
+		"tags": "End",
+		"body": ".",
+		"position": {
+			"x": 1114,
+			"y": -133
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TalkAlreadyP1",
+		"tags": "",
+		"body": "- Gracias otra vez.\n[[ answer: |Node40]]",
+		"position": {
+			"x": 1709,
+			"y": -310
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node40",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 1830,
+			"y": -530
+		},
+		"colorID": 0
+	},
+	{
+		"title": "StartP1",
+		"tags": "",
+		"body": "- ¿Me permiten sus billetes? [[ answer: |Node25]]",
+		"position": {
+			"x": 1736,
+			"y": -7
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node25",
+		"tags": "Ticket",
+		"body": "- Aquí tiene. [[ answer: |Node26]]",
+		"position": {
+			"x": 1736,
+			"y": 217
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node26",
+		"tags": "",
+		"body": "[[A. Sus billetes están caducados|Node27]] [[B. PERMITIR VIAJAR|Node28]]",
+		"position": {
+			"x": 1964,
+			"y": 215
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node27",
+		"tags": "",
+		"body": "- Por favor señor, no lo haga. Pagamos los billetes, pero ayer no pudimos llegar a tiempo a la estación.[[ answer: |Node33]]",
+		"position": {
+			"x": 2190,
+			"y": 104
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node28",
+		"tags": "",
+		"body": "- Dios le bendiga, señor. Necesitábamos coger este tren.[[ answer: |Node29]]",
+		"position": {
+			"x": 2193,
+			"y": 320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node29",
+		"tags": "",
+		"body": "[[A. ¿Por qué?|Node30]][[B. No hay de qué|Node31]]",
+		"position": {
+			"x": 2155,
+			"y": 530
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node30",
+		"tags": "End",
+		"body": ".[[ answer: |EndNode]]",
+		"position": {
+			"x": 1906,
+			"y": 457
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node31",
+		"tags": "End",
+		"body": ".[[ answer: |EndNode]]",
+		"position": {
+			"x": 1911,
+			"y": 675
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node33",
+		"tags": "",
+		"body": "...  Necesitamos coger este tren.[[ answer: |Node34]]",
+		"position": {
+			"x": 2413,
+			"y": 100
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node34",
+		"tags": "",
+		"body": "[[A. ¿Hay algún problema?|Node35]] [[B. Tienen que salir del tren|Node36]]",
+		"position": {
+			"x": 2531,
+			"y": -123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node35",
+		"tags": "",
+		"body": "- Estamos huyendo de alguien que nos quiere hacer daño.[[ answer: |Node38]]",
+		"position": {
+			"x": 2754,
+			"y": -174
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node36",
+		"tags": "",
+		"body": "- Se lo ruego, déjenos viajar.[[ answer: |Node43_1]]",
+		"position": {
+			"x": 2776,
+			"y": 89
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node38",
+		"tags": "",
+		"body": "- ¿Quién les quiere hacer daño?[[ answer: |Node39]]",
+		"position": {
+			"x": 2977,
+			"y": -175
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node39",
+		"tags": "",
+		"body": "- Mi marido se ha convertido en otra persona…[[ answer: |Node41]]",
+		"position": {
+			"x": 3201,
+			"y": -173
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node41",
+		"tags": "",
+		"body": "...Hemos tenido que escapar de casa.[[ answer: |Node42]]",
+		"position": {
+			"x": 3228,
+			"y": 54
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node42",
+		"tags": "",
+		"body": "...Por favor, mi hija es muy pequeña. No tendremos otra oportunidad.[[ answer: |Node43_1]]",
+		"position": {
+			"x": 3233,
+			"y": 274
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node46",
+		"tags": "Dropout",
+		"body": "- Nos ha condenado a mi hija y a mí.[[ answer: |Node47]]",
+		"position": {
+			"x": 3000,
+			"y": 676
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node47",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 2379,
+			"y": 814
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node43_1",
+		"tags": "",
+		"body": "[[A. EXPULSAR DEL TREN|Node46]][[B. PERMITIR VIAJAR|EndNode2]]",
+		"position": {
+			"x": 2919,
+			"y": 402
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode2",
+		"tags": "End",
+		"body": "- Dios le bendiga, nos ha salvado la vida.[[ answer: |EndNode3]]",
+		"position": {
+			"x": 2579,
+			"y": 382
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndNode3",
+		"tags": "End",
+		"body": "...",
+		"position": {
+			"x": 2568,
+			"y": 607
+		},
+		"colorID": 0
+	}
+]
